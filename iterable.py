@@ -1,5 +1,11 @@
 # lは引数
 def two_times_list(l):
+    """
+    リストの要素を２倍にする
+    :param l: int型リスト
+    :return: lの要素を2倍にしたリスト
+    """
+
     tmp = []            # 空のリスト
     for value in l:     # lの中身が順番にvalueに入る
         value *= 2      # value = value * 2の略
