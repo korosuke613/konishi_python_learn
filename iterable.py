@@ -20,7 +20,24 @@ def main():
     floating_point = 0.4  # 実数(float)
     string = "もじれつ"  # 文字列(str)
 
-    my_list = [1, 3, 4, 6]  # リスト(list) -- mutable(変更可能)
+    my_list = [1, 3, 4, 6, ["p", "e", "n"]]  # リスト(list) -- mutable(変更可能)
+    print(my_list)
+    my_list.append("h")  # リストへの要素の追加
+    print(my_list)
+    my_list.remove(3)
+    print(my_list)
+    my_list[0] = 8
+    print(my_list)
+
+    for param in my_list:
+        print(param, end="  ")
+
+    for num in range(len(my_list)):
+        print(num, my_list[num])
+
+    #for val in my_list:
+
+
     my_tuple = (1, 3, 4, 6)  # タプル(tuple) -- immutable(変更不可能)
     my_dictionary = {1: "いち", 3: "さん", 4: "よん", 6: "ろく"}  # 辞書(dict)
 
