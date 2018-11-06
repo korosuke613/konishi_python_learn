@@ -110,3 +110,7 @@ n=4  16.0000
 ex1) extraction_middle2last('abcdefghijklmn') -> 'hijklm'
 
 ex2) extraction_middle2last('abcdefghijklm') -> 'ghijklm'
+
+### 5-3
+1. リスト`[1, 2, 3, 4, 5]`を内包表記を使って作成せよ。
+2. 
