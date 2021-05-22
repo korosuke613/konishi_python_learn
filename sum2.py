@@ -3,7 +3,7 @@ from sum1 import hirakoba_sum1
 
 def main():
     hirakoba_sum1()
-    phone_number_of_hirakoba_house = "0995661319"
+    phone_number_of_hirakoba_house = "0000112222"
     a = 1 - 2
     print(a)
 
